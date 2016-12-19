@@ -11,8 +11,9 @@
     <AssemblyName>FSharp.Extension.Test</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <TargetFSharpCoreVersion>4.4.1.0</TargetFSharpCoreVersion>
+    <TargetFSharpCoreVersion>4.4.0.0</TargetFSharpCoreVersion>
     <Name>FSharp.Extension.Test</Name>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -75,7 +76,7 @@
   <ItemGroup>
     <ProjectReference Include="..\FSharp.Extension\FSharp.Extension.fsproj">
       <Name>FSharp.Extension</Name>
-      <Project>{4e91eab8-11ec-4319-a01c-1d0148868a70}</Project>
+      <Project>{815dd73c-092e-40c6-a88d-3c6b6055890c}</Project>
       <Private>True</Private>
     </ProjectReference>
   </ItemGroup>
